@@ -5,6 +5,7 @@ body {
     text-decoration: none;
     border: none;
     outline: none;
+    background-color: rgb(166, 166, 166);
 }
 
 .grid-container {
@@ -13,96 +14,87 @@ body {
         'header header'
         'nav main'
         'footer footer';
-        grid-template-rows: 50px 1fr 50px;
-        grid-template-columns: 150px 1fr;
-
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 150px 1fr;
 }
 
 
 .header {
-    background-color: blue;
+    background-color: rgb(4, 4, 141);
     grid-area: header;
     text-align: center;
-    padding-top: 15px;
+    color: white;
+    font-size: 125%;
+    text-shadow: 2px 2px 5px red;
 }
 
 .nav {
-    background-color: aqua;
+    background-color: rgb(166, 166, 166);
     grid-area: nav;
-    padding: 3%;
+    padding: 6%;
 }
 
 .main {
-    background-color: chocolate;
     grid-area: main;
 }
 
 .footer {
-    background-color: darkcyan;
     grid-area: footer;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+
 }
 
 
 
 .box {
-    border: solid 1px black;
-    margin:  0px;
+    margin: 0px;
 }
 
 
-.grid-discos{
+.grid-discos {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.discos{
+.discos {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
-.img_disco{
+.img_disco {
     height: 60%;
+    padding: 5%;
 }
 
-.img_disco img{
-    height: 100%;
-}
-
-
-
-
-.texto{
-    height: 100%;
+.texto {
+    height: 20%;
     width: 100%;
-    background-color: #2be2c3;
     text-align: center;
 }
 
 
-.boton{
+.boton {
     display: flex;
     justify-content: center;
-    border-top: solid 1px rgb(222, 220, 220);
-    border-bottom: solid 1px rgb(222, 220, 220);
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 20%;
     width: 100%;
 }
 
 button {
-    background-color: #A491D2;
-
+    background-color: rgb(4, 4, 141);
     color: white;
-
     height: 100%;
     width: 100%;
 }
 
 .boton buttom {
     height: 100%;
-    width: 100%;}
-
+    width: 100%;
+}
